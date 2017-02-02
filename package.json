@@ -1,9 +1,13 @@
 {
   "name": "taera-assignment-1",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.5.0"
   },
   "dependencies": {
     "body-parser": "~1.16.0",
@@ -13,5 +17,22 @@
     "express": "~4.14.1",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.2"
-  }
+  },
+  "description": "Taera Kwon's Express Site",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taerakwon/taera_assignment_1.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "author": "Taera Kwon (300755802)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taerakwon/taera_assignment_1/issues"
+  },
+  "homepage": "https://github.com/taerakwon/taera_assignment_1#readme"
 }
