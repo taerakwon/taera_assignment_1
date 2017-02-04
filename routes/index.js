@@ -33,5 +33,17 @@ router.get('/projects', (req, res, next) => {
   res.render('projects', { title: 'Projects'});
 });
 
+/* GET services page. */
+router.get('/services', (req, res, next) => {
+  /* To renter view */
+  res.render('services', { title: 'Services'});
+});
+
+/* GET contact me page. */
+router.get('/contact', (req, res, next) => {
+  /* To renter view */
+  res.render('contact', { title: 'Contact Me'});
+});
+
 // Exports router object
 module.exports = router;

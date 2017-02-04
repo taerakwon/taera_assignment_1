@@ -22,7 +22,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
+/* Use / as default, call routes/index.js */
 app.use('/', index);
 
 // catch 404 and forward to error handler
@@ -40,7 +40,7 @@ app.use((err, req, res, next) => {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.render('error', { title: err.status + " Ooops!"});
 });
 
 module.exports = app;
