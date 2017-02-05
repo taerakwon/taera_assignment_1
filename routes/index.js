@@ -12,7 +12,8 @@ let router = express.Router();
 router.get('/', (req, res, next) => {
   /* To renter view */
   res.render('contents/index', { 
-    title: "Taera Kwon's Website"
+    greeting: "Hello My Name Is",
+    title: "Taera Kwon"
   });
 });
 

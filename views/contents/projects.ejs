@@ -7,44 +7,13 @@
                 I have accompished & currently participating
 -->
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><%= title %></title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="/Scripts/lib/bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="/Scripts/lib/bootstrap/dist/css/bootstrap-theme.min.css"/>
-    <link rel='stylesheet' href='/Contents/style.css' />
-  </head>
-  <body>
-  <!-- Navigation Bar -->
-  <div>
-      <nav class="navbar navbar-inverse" role="navigation" style="padding-left:10px;">
-          <ul class="nav navbar-nav">
-              <!-- Click navbar-brand to scroll to top -->
-              <a class="navbar-brand" href="#">Taera Kwon</a>
-              <!-- Home is active as default in index.html-->
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-              <li class="active"><a href="/projects">Projects<span class="sr-only">(current)</span></a></li>             
-              <li><a href="/services">Services</a></li>
-              <li><a href="/contact">Contact Me</a></li>
-          </ul>
-      </nav>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-offset-3 col-md-6">
-        <h1><%= title %></h1>
-        <p>Welcome to <%= title %></p>
-      </div> <!-- .col-md-offset-3 col-md-6 -->
-    </div> <!-- .row -->
-  </div> <!-- .container -->
-    <!-- Scripts -->
-    <script src="/Scripts/lib/jquery/dist/jquery.min.js"></script>
-    <script src="/Scripts/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/Scripts/app.js"></script>
-  </body>
-</html>
+<% include ../partials/header.ejs %>
+<div class="container">
+  <div class="row">
+    <div class="col-md-offset-3 col-md-6">
+      <h1><%= title %></h1>
+      <p>Welcome to <%= title %></p>
+    </div> <!-- .col-md-offset-3 col-md-6 -->
+  </div> <!-- .row -->
+</div> <!-- .container -->
+<% include ../partials/footer.ejs %>

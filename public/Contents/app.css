@@ -3,3 +3,39 @@
  *  File Name: Contents/app.css
  *  Description: This is my custom CSS
  */
+
+/* NAVIGATION BAR */
+.navbar {
+    width:675px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.collapse navbar-collapse {
+    width: 100%;
+    margin: auto;
+}
+
+/* Content Styling */
+
+.container{
+    margin-top: 200px;
+}
+
+/* Body Styling */
+
+/* Footer */
+.navbar.navbar-default.navbar-fixed-bottom {
+    width: 100%;
+}
+
+/* Index */
+#intro {
+    text-align: center;
+    font-size: 16pt;
+}
+#bigCode {
+    color: #999999;
+    text-align: center;
+    font-size: 40pt;
+}
