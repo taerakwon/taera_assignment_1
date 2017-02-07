@@ -4,6 +4,3 @@
  *  Description: This is where all custom scripts belong
  */
 
-$(document).ready(function(){
-    $("div").slideDown();
-});

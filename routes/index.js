@@ -12,7 +12,6 @@ let router = express.Router();
 router.get('/', (req, res, next) => {
   /* To renter view */
   res.render('contents/index', { 
-    greeting: "Hello My Name Is",
     title: "Home | Taera Kwon",
     name: 'Taera Kwon'
   });
@@ -21,7 +20,9 @@ router.get('/', (req, res, next) => {
 /* GET about page. */
 router.get('/about', (req, res, next) => {
   /* To renter view */
-  res.render('contents/about', { title: 'About Me | Taera Kwon'});
+  res.render('contents/about', { 
+    title: 'About Me | Taera Kwon'
+  });
 });
 
 /* GET projects page. */
@@ -39,7 +40,10 @@ router.get('/services', (req, res, next) => {
 /* GET contact me page. */
 router.get('/contact', (req, res, next) => {
   /* To renter view */
-  res.render('contents/contact', { title: 'Contact | Taera Kwon'});
+  res.render('contents/contact', { 
+    title: 'Contact | Taera Kwon',
+    email: "taerakwon@gmail.com"
+  });
 });
 
 // Exports router object

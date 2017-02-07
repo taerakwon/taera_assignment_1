@@ -6,31 +6,64 @@
 
 /* NAVIGATION BAR */
 .navbar.navbar-default{
-    width:675px;
+    width:650px;
     margin: auto;
     margin-top: 50px;
-}
-
-.collapse navbar-collapse {
-    width: 100%;
-    margin: auto;
 }
 
 /* Body Styling */
-.container-fluid.body{
-    margin-top: 50px;
-    width: 800px;
-    height: 500px;
-    border: 1px solid #999999;
-    border-radius: 10px;
-    padding: 20px 20px 20px 20px;
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.contactContainer{
-    margin-top: 200px;
+.container-fluid.body{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 800px;
+    height: 600px;
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;    
+}
+
+/* Home style */
+/* Style for home body container */
+#home{
+    background-color: #ffffff;
+    border-color: #00cca3;
+}
+
+#name {
+    color: #00cca3;
+}
+
+.homeContainer{
+    margin-top: 30%;
+}
+
+/* About style */
+/* Style for home body container */
+.img-rounded.profile{
+    height: 200px;
+}
+#about{
+    border-color: #ff6666;
+}
+
+#projects{
+    border-color: #0099cc;
+}
+
+#services{
+    border-color: #ffcc00
+}
+
+#contact{
+    border-color: #000000;
 }
 
 /* Footer */
-.navbar.navbar-default.navbar-fixed-bottom {
+.navbar.navbar-default.navbar-fixed-bottom{
     width: 100%;
+    text-align: center;
 }
