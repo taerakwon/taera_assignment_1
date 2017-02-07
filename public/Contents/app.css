@@ -5,7 +5,7 @@
  */
 
 /* NAVIGATION BAR */
-.navbar {
+.navbar.navbar-default{
     width:675px;
     margin: auto;
     margin-top: 50px;
@@ -16,26 +16,21 @@
     margin: auto;
 }
 
-/* Content Styling */
-
-.container{
-    margin-top: 200px;
+/* Body Styling */
+.container-fluid.body{
+    margin-top: 50px;
+    width: 800px;
+    height: 500px;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
 }
 
-/* Body Styling */
+.contactContainer{
+    margin-top: 200px;
+}
 
 /* Footer */
 .navbar.navbar-default.navbar-fixed-bottom {
     width: 100%;
-}
-
-/* Index */
-#intro {
-    text-align: center;
-    font-size: 16pt;
-}
-#bigCode {
-    color: #999999;
-    text-align: center;
-    font-size: 40pt;
 }
