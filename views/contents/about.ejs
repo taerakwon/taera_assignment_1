@@ -9,12 +9,25 @@
 <div class="container-fluid body" id="about">
   <div class="row">
     <div class="col-md-offset-0 col-md-12">
-      <div class="contactContainer about">
-      <h1><%= title %></h1>
-      <img src="Contents/taera_profile.jpg" class="img-rounded profile" alt="Taera Kwon Profile Photo"/>
-      <p>Welcome to <%= title %></p>
-      </div> <!-- aboutContainer -->
+      <div class="bodyContainer about">
+        <!-- Floating fonts -->              
+        <img src="Contents/images/taera_profile.jpg" class="animated pulse" id="about_profile" alt="Taera Kwon Profile Photo"/>        
+        <p id="about_more_info_title" class="animated pulse infinite"><b>Information</b></p>
+        <dl id="about_more_info_contents">
+          <dt>Education</dt>
+          <dd>&nbsp; 2013 to Current: &nbsp;Software Engineering Technology Advanced Diploma at Centennial College</dd>
+          <dd>&nbsp; 2004 to 2009: &nbsp;Honours Bachelor of Science (Biochemistry) at University of Toronto</dd>
+          <dt>Skills and Knowledge</dt>
+          <dd>&nbsp; Android Development, Bootsrap, C#, CSS, HP UFT Automation, HTTP 5, Java, Javscript, JQuery, JSON</dd> 
+          <dd>&nbsp; PHP, MS Office Tools, UML, Unity, VBA, VBS, Waterfall, XML</dd>
+        </dl>
+        <div class="floating about">
+          <p><i>" Hello, my name is Taera Kwon<br>
+          Below are brief information about myself "</i>
+          </p>
+        </div>
+      </div> <!-- aboutContainer -->      
     </div> <!-- .col-md-offset-3 col-md-6 -->
-  </div> <!-- .row -->
+  </div> <!-- .row -->  
 </div> <!-- .container-fluid body -->
 <% include ../partials/footer.ejs %>

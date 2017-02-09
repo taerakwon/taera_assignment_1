@@ -13,7 +13,7 @@
 
 /* Body Styling */
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
 }
 
 .container-fluid.body{
@@ -26,7 +26,7 @@ body {
     padding: 20px 20px 20px 20px;    
 }
 
-/* Home style */
+/* index.ejs style */
 /* Style for home body container */
 #home{
     background-color: #ffffff;
@@ -37,18 +37,42 @@ body {
     color: #00cca3;
 }
 
-.homeContainer{
+.bodyContainer.home{
     margin-top: 30%;
 }
 
-/* About style */
-/* Style for home body container */
-.img-rounded.profile{
-    height: 200px;
+/* about.ejs style */
+.floating.about{
+    font-size: 1.5em;
+    margin-left: 360px;
+    margin-top: -440px;
+    position: inherit;
 }
+
+/* Profile photo */
+#about_profile{
+    margin-top: 25px;
+    margin-left: 25px;
+    height: 300px;
+    border-radius: 250px;
+}
+
 #about{
     border-color: #ff6666;
 }
+
+#about_more_info_title{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.75em;
+    color: #ff6666;
+}
+
+#about_more_info_contents{
+    text-align: left;
+    font-size: 1.25em;
+}
+/* projects.ejs style */
 
 #projects{
     border-color: #0099cc;
