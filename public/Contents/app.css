@@ -135,3 +135,23 @@ services.ejs style
     width: 100%;
     text-align: center;
 }
+
+/*
+MODAL VIWER
+*/
+
+.modal-body{
+    background-color: black;
+}
+
+.modal-content{
+    background-color: rgba(0,0,0,0.5); /* Transparency 50% */
+}
+
+.modal-header
+{
+    color: #ffffff;
+    text-align: center;
+}
+
+

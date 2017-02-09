@@ -1,0 +1,20 @@
+<!-- modal_viewer to show images when projects are clicked -->
+<!-- Resource link: http://www.w3schools.com/bootstrap/bootstrap_modal.asp -->
+<!-- Modal viewer-->
+<div id="modal_viewer" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-sm" style="width:fit-content;">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"><%= title %></h4>
+      </div> <!-- .modal-header -->
+      <div class="modal-body">
+        <img src="/Contents/images/project_completed_pacman.png">
+      </div> <!-- .modal-body -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div> <!-- .modal-footer-->
+    </div> <!-- .modal-content -->
+  </div> <!-- .modal-dialog modal-sm -->
+</div> <!-- .modal_viewer -->
