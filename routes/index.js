@@ -41,7 +41,16 @@ router.get('/projects', (req, res, next) => {
 /* GET services page. */
 router.get('/services', (req, res, next) => {
   /* To renter view */
-  res.render('contents/services', { title: 'Services | Taera Kwon'});
+  res.render('contents/services', { 
+    title: 'Services | Taera Kwon',
+    service_1: "Unity 2D/3D",
+    service_2: "Android and Windows Phone Development",
+    service_3: "HTML 5 and CSS, AJAX, and MEAN",
+    service_4: "Excel and Access VBA Macro",
+    service_5: "C#, Java",    
+    service_6: "HP UFT Automation",
+    service_7: "HPQC"
+  });
 });
 
 /* GET contact me page. */

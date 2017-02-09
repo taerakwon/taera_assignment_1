@@ -88,7 +88,8 @@ projects.ejs style
 /* Projects within border body container */
 .bodyContainer.projects{
     font-size: 1.25em;
-    width: 50%;
+    width: 75%;
+    margin: auto;
 }
 
 .bodyContainer.projects h2{
@@ -122,6 +123,22 @@ services.ejs style
 */
 /* Services within border body container */
 
+.bodyContainer.services{
+    width: 70%;
+    margin: auto;
+    font-size: 1.25em;
+}
+
+.bodyContainer.services ol{
+    text-align: left;
+    width: 90%;
+    margin: auto;
+}
+
+.bodyContainer.services li{    
+    padding: 0px 0px 15px 15px; /* Add padding 5px to bottom of list item and 10px to left */
+}
+
 #services{
     border-color: #ffcc00
 }
@@ -129,6 +146,16 @@ services.ejs style
 #contact{
     border-color: #000000;
 }
+
+.bodyContainer.services a:link, a:visited{
+    color: #808080;       
+}
+
+.bodyContainer.services a:hover{
+    color: #ffcc00;
+    text-decoration: none;
+}
+
 
 /* Footer */
 .navbar.navbar-default.navbar-fixed-bottom{
