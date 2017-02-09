@@ -4,14 +4,18 @@
  *  Description: This is my custom CSS
  */
 
-/* NAVIGATION BAR */
+/* 
+NAVIGATION BAR 
+*/
 .navbar.navbar-default{
     width:650px;
     margin: auto;
     margin-top: 50px;
 }
 
-/* Body Styling */
+/* 
+Body Styling 
+*/
 body {
     font-family: Calibri, 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
 }
@@ -24,9 +28,12 @@ body {
     border: 3px solid;
     border-radius: 10px;
     padding: 20px 20px 20px 20px;    
+    overflow-y:auto;
 }
 
-/* index.ejs style */
+/* 
+index.ejs style 
+*/
 /* Style for home body container */
 #home{
     background-color: #ffffff;
@@ -41,7 +48,9 @@ body {
     margin-top: 30%;
 }
 
-/* about.ejs style */
+/*
+ about.ejs style 
+ */
 .floating.about{
     font-size: 1.5em;
     margin-left: 360px;
@@ -49,8 +58,8 @@ body {
     position: inherit;
 }
 
-/* Profile photo */
-#about_profile{
+
+#about_profile{ /* Profile photo */
     margin-top: 25px;
     margin-left: 25px;
     height: 300px;
@@ -69,14 +78,49 @@ body {
 }
 
 #about_more_info_contents{
+    padding-left: 20px;
     text-align: left;
     font-size: 1.25em;
 }
-/* projects.ejs style */
+/* 
+projects.ejs style 
+*/
+/* Projects within border body container */
+.bodyContainer.projects{
+    font-size: 1.25em;
+    width: 50%;
+}
+
+.bodyContainer.projects h2{
+    color: #0099cc;
+}
+
+.bodyContainer.projects ol{
+    text-align: left;
+    width: 100%;
+}
+
+.bodyContainer.projects li{
+    padding: 0px 0px 5px 10px; /* Add padding 5px to bottom of list item and 10px to left */
+}
+
+.bodyContainer.projects a:link, a:visited{
+    color: #808080;    
+}
+
+.bodyContainer.projects a:hover{
+    color: #0099cc;
+    text-decoration: none;
+}
 
 #projects{
-    border-color: #0099cc;
+    border-color: #0099cc;    
 }
+
+/*
+services.ejs style 
+*/
+/* Services within border body container */
 
 #services{
     border-color: #ffcc00

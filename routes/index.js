@@ -28,7 +28,14 @@ router.get('/about', (req, res, next) => {
 /* GET projects page. */
 router.get('/projects', (req, res, next) => {
   /* To renter view */
-  res.render('contents/projects', { title: 'Projects | Taera Kwon'});
+  res.render('contents/projects', { 
+    title: 'Projects | Taera Kwon',
+    project_progress_1: "Currently under Iteration #2 (Implementation stage)",
+    project_progress_2: "Dynamic form has been created.  Need to create a servlet that connects to MySQL DB",
+    project_progress_3: "This portfolio is the project!",
+    project_completed_1:"VBA compared raw data from legacy SQL Server and compared to new SQL Server raw data.  VBA reduced approximately 30 Hours of working hours for analysts ",
+    project_completed_2:"Click to view screenshot"
+  });
 });
 
 /* GET services page. */

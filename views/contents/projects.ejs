@@ -10,10 +10,46 @@
 <% include ../partials/header.ejs %>
 <div class="container-fluid body" id="projects">
   <div class="row">
-    <div class="col-md-offset-3 col-md-6">
-      <h1><%= title %></h1>
-      <p>Welcome to <%= title %></p>
+    <div class="col-md-offset-0 col-md-0">
+      <div class="bodyContainer projects text-center">      
+        <h2><b>List of Projects<b></h2><br>
+        <!-- IN PROGRESS SECTION -->
+        <p class="animated pulse infinite"><b><i>In Progress</b></i></p>
+        <!-- Under ordered list for In Progress -->
+        <ol>        
+          <li><a href="#" data-toggle="tooltip" title="<%= project_progress_1 %>" class="hvr-shrink">Developing Math tutoring application for Android devices.</a></li>
+          <li><a href="#" data-toggle="tooltip" title="<%= project_progress_2 %>" class="hvr-shrink">Dynamic Java Web Application that perform CRUD operations to MySQL DB</a></li>
+          <li><a href="#" data-toggle="tooltip" title="<%= project_progress_3 %>" class="hvr-shrink">Developing Portfolio Website using MEAN</a></li>
+        </ol>        
+        <br>
+        <!-- COMPLETED SECTION -->
+        <p class="animated pulse infinite"><b><i>Completed</b></i></p>
+        <!-- Under ordered list for In Progress -->        
+        <ol>        
+          <li data-target="tooltip" title="<%= project_completed_1 %>"><a href="#" class="hvr-shrink">Developed VBA application for MCSS (Ministry of Children and Social Services)</a></li>
+          <li><a href="#" data-target="#modal_viewer"data-toggle="modal" title="<%= project_completed_2 %>" class="hvr-shrink">3D Pacman game was created using Unity for Game Programming</a></li>
+        </ol>   
+      </div> <!-- bodyContainer projects -->
     </div> <!-- .col-md-offset-3 col-md-6 -->
   </div> <!-- .row -->
 </div> <!-- .container -->
+<!-- modal_viewer to show images when projects are clicked -->
+<!-- Resource link: http://www.w3schools.com/bootstrap/bootstrap_modal.asp -->
+<!-- Modal viewer-->
+<div id="modal_viewer" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-sm">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"><%  %></h4>
+      </div> <!-- .modal-header -->
+      <div class="modal-body">
+      </div> <!-- .modal-body -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div> <!-- .modal-footer-->
+    </div> <!-- .modal-content -->
+  </div> <!-- .modal-dialog modal-sm -->
+</div> <!-- .modal_viewer -->
 <% include ../partials/footer.ejs %>
