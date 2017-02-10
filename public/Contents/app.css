@@ -143,6 +143,15 @@ services.ejs style
     border-color: #ffcc00
 }
 
+/*
+contact.ejs style
+*/
+.bodyContainer.contact{
+    width: 100%;
+    margin-top: 30%;
+    font-size: 1.5em;
+}
+
 #contact{
     border-color: #000000;
 }
@@ -159,7 +168,7 @@ services.ejs style
 
 /* Footer */
 .navbar.navbar-default.navbar-fixed-bottom{
-    width: 100%;
+    width: 100%;    
     text-align: center;
 }
 

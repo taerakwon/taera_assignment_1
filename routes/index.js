@@ -8,6 +8,7 @@ let express = require('express');
 /* Rexpress Route */
 let router = express.Router();
 
+
 /* GET home page. */
 router.get('/', (req, res, next) => {
   /* To renter view */
@@ -64,3 +65,4 @@ router.get('/contact', (req, res, next) => {
 
 // Exports router object
 module.exports = router;
+
